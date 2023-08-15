@@ -1,0 +1,1 @@
+# element-click-intercepted-in-java-selenium
