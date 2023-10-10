@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: hardcodedpauses.ProductDetailsTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 15.878 s <<< FAILURE! - in hardcodedpauses.ProductDetailsTests
+hardcodedpauses.ProductDetailsTests.correctInformationDisplayedInQuickView_whenOpenProductFromSearchResults  Time elapsed: 8.964 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7b3bb831cc9b3e409f0e0dab9b22062c, clickElement {id=D4F022350D84D4515D1FB00EC1C6A02F_element_123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\angel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58219}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58219/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7b3bb831cc9b3e409f0e0dab9b22062c)] -> xpath: //button[@title='Add to Cart']]
+Session ID: 7b3bb831cc9b3e409f0e0dab9b22062c
+	at hardcodedpauses.ProductDetailsTests.correctInformationDisplayedInQuickView_whenOpenProductFromSearchResults(ProductDetailsTests.java:107)
+
+hardcodedpauses.ProductDetailsTests.elementInterceptedTest  Time elapsed: 3.723 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=117.0.5938.132)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63204d536be42430bda1c2f20ef65a07, clickElement {id=B7AA6A6089141D0D7BCBA7549A71BE6B_element_112}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.132, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\angel\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58256/devtoo..., se:cdpVersion: 117.0.5938.132, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (63204d536be42430bda1c2f20ef65a07)] -> xpath: //button[@title='Add to Cart']]
+Session ID: 63204d536be42430bda1c2f20ef65a07
+	at hardcodedpauses.ProductDetailsTests.elementInterceptedTest(ProductDetailsTests.java:57)
+
+hardcodedpauses.ProductDetailsTests.clickDisabledButton  Time elapsed: 3.173 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at hardcodedpauses.ProductDetailsTests.clickDisabledButton(ProductDetailsTests.java:80)
+

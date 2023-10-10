@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: webdriverwait.ProductDetailsWaitTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.397 s <<< FAILURE! - in webdriverwait.ProductDetailsWaitTests
+webdriverwait.ProductDetailsWaitTests.correctInformationDisplayedInCompareScreen_whenOpenProductFromSearchResults_TwoProducts  Time elapsed: 11.334 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=117.0.5938.63)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ISXVT-DX4DX-TQKYU-OTAJ6, clickElement {id=CD97F72F92B97D6DB234DD19C44D58F6_element_147}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 117.0, chrome: {chromedriverVersion: 117.0, userDataDir: "C:\\Windows\\proxy\\scoped...}, goog:chromeOptions: {debuggerAddress: }, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ISXVT-DX4DX-TQKYU-OTAJ6}
+Element: [[RemoteWebDriver: chrome on Windows 10 (ISXVT-DX4DX-TQKYU-OTAJ6)] -> xpath: //button[@title='Compare this Product']]
+Session ID: ISXVT-DX4DX-TQKYU-OTAJ6
+	at webdriverwait.ProductDetailsWaitTests.compareProduct(ProductDetailsWaitTests.java:120)
+	at webdriverwait.ProductDetailsWaitTests.correctInformationDisplayedInCompareScreen_whenOpenProductFromSearchResults_TwoProducts(ProductDetailsWaitTests.java:93)
+
