@@ -15,16 +15,11 @@ package webdriverwait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import models.ProductDetails;
-import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.HasDevTools;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -34,9 +29,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
-import java.util.Optional;
 
-public class ProductDetailsTests {
+public class ProductDetailsWaitTests {
     private WebDriver driver;
     private WebDriverWait wait;
     private Actions actions;
